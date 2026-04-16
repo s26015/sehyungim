@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- span에 display:block을 줘
+    블록태그터럼 만들었던걸 가지고
+    div에 display:inline을 인라인태그마냥
+    만드는중 -->
+    <!-- inline 속성: 창의 크기에 맞추어 줄바꿈이 됨 -->
+    오늘은
+    <span style="color: red; font-weight: bold; display: block; width: 120px; height: 120px; background-color: aqua;">
+        화요일
+    </span>
+    입니다.
+    <br>내일은
+    <span style="color: red; font-weight: bold; display: block; width: 120px; height: 120px; background-color: aqua;">
+        금요일
+    </span>
+    였으면
+    <div>
+        <div style="display: inline; background: aqua;">
+            월요일
+        </div>
+        <div style="display: inline; background: aqua;">
+            화요일
+        </div>
+        <div style="display: inline-block; background: aqua;">
+            수요일
+            <!-- block 속성: 창의 크기에 맞추어 block 줄 전체가 줄바꿈이 됨 -->
+        </div>
+    </div>
+</body>
+</html>
