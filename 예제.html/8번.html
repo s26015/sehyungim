@@ -1,51 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset=""utf-8>
+        <meta charset="utf-8">
         <title>학번이름</title>
         <style>
-            h3 {background: skyblue;}
-            h3 {text-align: center;
-            color: white;}
-            img {box-shadow: 5px 5px gray;}
-            div {background-color: beige;}
-            hr {border: 5px dotted;}
+            .a{box-shadow: 5px 5px black;}
+            .b{box-shadow: 5px 5px rgb(0, 213, 255);}
+            .c{box-shadow: 5px 5px rgb(255, 0, 0);}
+            td:hover {cursor: progress;}
+            h3{text-align: center;
+            color : greenyellow; background-color: aqua;}
+            hr { border: 5px green solid;}
         </style>
     </head>
     <body>
         <header>
-            <h3>이력서 페이지</h3>
+            <h3>GSM 사진첩</h3>
             <hr>
         </header>
         <section>
-            <article>
-                <h2>사진</h2>
-                <div>
-                    <img src="그림2.png"><br>
-                    저는 1학년 O반 OOO입니다. 자신있는 과목으로는 OOO 등이 있습니다.
-                </div>
-            </article>
-            <article>
-                <h2>진행한 프로젝트 목록</h2>
-                <div>
-                    <ul>
-                        <li>홈페이지 제작</li>
-                        <li>백준알고리즘풀이</li>
-                        <li>자바프로젝트</li>
-                    </ul>
-                </div>
-                <fieldset>
-                    <legend>Contentd me</legend>
-                    이메일 : <input type="text"><br>
-                    이름 : <input type="text"><br>
-                    전화번호 : <input type="text"> <button type="button">연락하기</button>
-                </fieldset>
-                <small>질문 : Tel. 010-XXXX-XXXX</small>
-                <hr>
-            </article>
+            <table>
+                <tr><td><div class="a"><img src = "그림2.png"></div></td><td><div class="b"><img src = "그림2.png"></div></td><td><div class="c"><img src = "그림2.png"></div></td></tr>
+                <tr><td><div class="a"><img src = "그림2.png"></div></td><td><div class="b"><img src = "그림2.png"></div></td><td><div class="c"><img src = "그림2.png"></div></td></tr>
+            </table>
         </section>
-        <footer>
-            &copy;gsm highschool 2025 sep
-        </footer>
     </body>
 </html>
