@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>학번이름</title>
+        <style>
+            h3,div {text-align: center;}
+            span {background-color:aquamarine;}
+            hr {border-width: 5px; border-style: dashed; border-color: violet;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h3><span>회원 가입 화면</span></h3>
+            <hr>
+        </header>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>기본 정보</legend>
+                    아이디 : <input type="text"><br>
+                    패스워드 : <input type ="password"><br>
+                    이름 : <input type="text" maxlength="10"><br>
+                    생일 : <input type="date"><br>
+                    이메일 주소 : <input type="email" placeholder="id@host"><br>
+                    주소 : 
+                    <select name="address">
+                        <option value="1" selected>서울특별시</option>
+                        <option value="2">인천광역시</option>
+                        <option value="3">대구광역시</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>취미</legend>
+                    <label><input type="radio" name="hobby" value="1">게임<img width="250" height="250" src="data:image/png;base64,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"></label>
+                    <label><input type="radio" name="hobby" value="2">등산<img width="250" height="250" src="https://cdn-icons-png.flaticon.com/512/2017/2017204.png"></label>
+                    <label><input type="radio" name="hobby" value="3">골프<img width="250" height="250" src="https://www.shutterstock.com/image-vector/golf-golfer-player-vector-illustration-260nw-2460924729.jpg"></label>
+                </fieldset>
+                <input type="submit" value="가입"><input type="reset" value="취소">
+            </form>
+        </section>
+        <footer>
+            <div><span>&copy;gsm highschool 2025 sep</span></div>
+        </footer>
+    </body>
+</html>
